@@ -1,7 +1,7 @@
 <h1 align="center">Experimental code</h1>
 
  
-This is the code of experiment of **Research On Gene Regulatory Relationships Mining Based On Three-Phase Dependency Analysis Algorithm**,
+**This** is the source code of experiment of the **Research On Gene Regulatory Relationships Mining Based On Three-Phase Dependency Analysis Algorithm**,
  here is the description about **project structure**.
 All files and folders are in the same directory,
 ## files including:
@@ -24,26 +24,38 @@ All files and folders are in the same directory,
 * /IN       - Save the input file of the program.
 * /OUT      - Save the output file of the program.
 
- 
-+ **/root** ( ExperimentCode )<br/>
-  - main.R<br/>
-  - Nine_Algorithms.R<br/>
-  - Sampling&Aprori.R<br/>
-  - SortbyRules.R<br/>
-  - TPDA_Function_5_4.R<br/>
-  - furTreatment.java<br/>
-  - preTreatment.java<br/>
-  + **/EX**<br/>
-    - c2links.csv
------Sample.csv
------SampleAfterChangeNB.csv
------SampleNine.csv
------TPDA_Result.csv
------**/rules**<br/>
--------express100_after.csv<br/>
--------genNode.csv<br/>
--------Mult_data_100.txt<br/>
--------Result.csv<br/>
--------sum_data.csv<br/>
----**/IN**<br/>
----/OUT<br/>
+## project structure: 
+  ROOT(EXPERIMENTCODE)<br/> 
+  &nbsp;&nbsp;│  &nbsp;&nbsp;preTreatment.java<br/>
+  &nbsp;&nbsp;│  &nbsp;&nbsp;furTreatment.java<br/>
+  &nbsp;&nbsp;│  &nbsp;&nbsp;main.r<br/>
+  &nbsp;&nbsp;│  &nbsp;&nbsp;Sampling&Aprori.r<br/>
+  &nbsp;&nbsp;│  &nbsp;&nbsp;SortbyRules.r<br/>
+  &nbsp;&nbsp;│  &nbsp;&nbsp;TPDA_Function_5_4.r<br/>
+  &nbsp;&nbsp;│  &nbsp;&nbsp;Nine_Algorithms.r<br/>
+  &nbsp;&nbsp;│  
+  &nbsp;&nbsp;├─/EX<br/>
+  &nbsp;&nbsp;│  &nbsp;&nbsp;│  &nbsp;&nbsp;c2links.csv<br/>
+  &nbsp;&nbsp;│  &nbsp;&nbsp;│  &nbsp;&nbsp;Sample.csv<br/>
+  &nbsp;&nbsp;│  &nbsp;&nbsp;│  &nbsp;&nbsp;SampleAfterChangeNB.csv<br/>
+  &nbsp;&nbsp;│  &nbsp;&nbsp;│  &nbsp;&nbsp;SampleNine.csv<br/>
+  &nbsp;&nbsp;│  &nbsp;&nbsp;│  &nbsp;&nbsp;TPDA_Result.csv<br/>
+  &nbsp;&nbsp;│  &nbsp;&nbsp;│  
+  &nbsp;&nbsp;│  &nbsp;&nbsp;└─/rules<br/>
+  &nbsp;&nbsp;│          &nbsp;&nbsp;express100_after.csv<br/>
+  &nbsp;&nbsp;│          &nbsp;&nbsp;genNode.csv<br/>
+  &nbsp;&nbsp;│          &nbsp;&nbsp;Mult_data_100.txt<br/>
+  &nbsp;&nbsp;│          &nbsp;&nbsp;Result.csv<br/>
+  &nbsp;&nbsp;│          &nbsp;&nbsp;sum_data.csv<br/>
+  &nbsp;&nbsp;│          
+  &nbsp;&nbsp;├─/IN<br/>
+  &nbsp;&nbsp;│      &nbsp;&nbsp;Gene100_6.csv<br/>
+  &nbsp;&nbsp;│      &nbsp;&nbsp;weishengsu_add_5_and_4.csv<br/>
+  &nbsp;&nbsp;│      &nbsp;&nbsp;weishengsu_expression_change.csv<br/>
+  &nbsp;&nbsp;│      
+  &nbsp;&nbsp;└─/OUT<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experiment_Result.csv<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nine_Result.csv<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nine_Result.txt<br/>
+        
+
