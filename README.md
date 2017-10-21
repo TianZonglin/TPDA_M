@@ -2,7 +2,7 @@
  here is the description about **project structure**.
 All files and folders are in the same directory,
 ## more details (see article)
-  <pre><a href='http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC5554554&blobtype=pdf'>http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC5554554&blobtype=pdf</a></pre>
+  <pre><a href='https://www.hindawi.com/journals/bmri/2017/1813494/'>Verification of Three-Phase Dependency Analysis Bayesian Network Learning Method for Maize Carotenoid Gene Mining</a></pre>
 ## files including
   <pre>
     main.R
