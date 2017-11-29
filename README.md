@@ -1,8 +1,7 @@
 **This** is the source code of experiment of the **Research On Gene Regulatory Relationships Mining Based On Three-Phase Dependency Analysis Algorithm**,
  here is the description about **project structure**.
 All files and folders are in the same directory,
-## more details (see article)
-<pre><a href='https://www.hindawi.com/journals/bmri/2017/1813494/'>Verification of Three-Phase Dependency Analysis Bayesian Network Learning Method for Maize Carotenoid Gene Mining</a></pre>
+
 ## files including
   <pre>
     main.R
